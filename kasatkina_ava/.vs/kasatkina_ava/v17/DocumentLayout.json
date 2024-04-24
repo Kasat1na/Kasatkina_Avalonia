@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\kasatkina_ava\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1ABF35A2-FBCF-4FB7-BE45-B3807D74E510}|kasatkina_ava\\kasatkina_ava.csproj|c:\\users\\user\\source\\repos\\kasatkina_ava\\kasatkina_ava\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{1ABF35A2-FBCF-4FB7-BE45-B3807D74E510}|kasatkina_ava\\kasatkina_ava.csproj|solutionrelative:kasatkina_ava\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ABF35A2-FBCF-4FB7-BE45-B3807D74E510}|kasatkina_ava\\kasatkina_ava.csproj|c:\\users\\user\\source\\repos\\kasatkina_ava\\kasatkina_ava\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ABF35A2-FBCF-4FB7-BE45-B3807D74E510}|kasatkina_ava\\kasatkina_ava.csproj|solutionrelative:kasatkina_ava\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ABF35A2-FBCF-4FB7-BE45-B3807D74E510}|kasatkina_ava\\kasatkina_ava.csproj|c:\\users\\user\\source\\repos\\kasatkina_ava\\kasatkina_ava\\kasatkina_ava.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{1ABF35A2-FBCF-4FB7-BE45-B3807D74E510}|kasatkina_ava\\kasatkina_ava.csproj|solutionrelative:kasatkina_ava\\kasatkina_ava.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "kasatkina_ava",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\kasatkina_ava\\kasatkina_ava\\kasatkina_ava.csproj",
+              "RelativeDocumentMoniker": "kasatkina_ava\\kasatkina_ava.csproj",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\kasatkina_ava\\kasatkina_ava\\kasatkina_ava.csproj",
+              "RelativeToolTip": "kasatkina_ava\\kasatkina_ava.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-24T20:01:07.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\kasatkina_ava\\kasatkina_ava\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "kasatkina_ava\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\kasatkina_ava\\kasatkina_ava\\MainWindow.axaml",
+              "RelativeToolTip": "kasatkina_ava\\MainWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-24T20:00:30.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\kasatkina_ava\\kasatkina_ava\\MainWindow.axaml.cs",
+              "RelativeDocumentMoniker": "kasatkina_ava\\MainWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\kasatkina_ava\\kasatkina_ava\\MainWindow.axaml.cs",
+              "RelativeToolTip": "kasatkina_ava\\MainWindow.axaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwBAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T20:00:25.242Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

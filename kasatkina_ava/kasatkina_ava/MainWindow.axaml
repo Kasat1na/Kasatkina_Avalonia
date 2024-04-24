@@ -1,0 +1,66 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="1000" d:DesignHeight="850"
+        x:Class="kasatkina_ava.MainWindow"
+        Title="kasatkina_ava" FontSize="24">
+	<Grid>
+		<StackPanel HorizontalAlignment="Center" Name="WritePanel">
+			<StackPanel Orientation="Vertical" >
+				<StackPanel Margin="10">
+					<TextBlock>Введите имя:</TextBlock>
+					<TextBox Name="tbName"></TextBox>
+				</StackPanel>
+				<StackPanel Margin="10">
+					<TextBlock>Введите фамилию:</TextBlock>
+					<TextBox Name="tbSurname"></TextBox>
+				</StackPanel>
+				<StackPanel Margin="10">
+					<TextBlock>Введите отчество:</TextBlock>
+					<TextBox Name="tbotchestvo"></TextBox>
+				</StackPanel>
+				<TextBlock>Выберите пол:</TextBlock>
+				<StackPanel Orientation="Horizontal">
+					<RadioButton Name="rbZH" FontSize ="14" Margin="10">Женский</RadioButton>
+					<RadioButton Name="rbM" FontSize ="14" Margin="10">Мужской</RadioButton>
+				</StackPanel>
+				<StackPanel Margin="10">
+					<TextBlock>Введите номер телефона:</TextBlock>
+					<TextBox Name="tbphone"></TextBox>
+				</StackPanel>
+				<StackPanel Margin="10">
+					<TextBlock>Введите день рождения:</TextBlock>
+					<TextBox Name="tbday"></TextBox>
+				</StackPanel>
+				<StackPanel Margin="10">
+					<TextBlock>Введите год рождения:</TextBlock>
+					<TextBox Name="tbyear"></TextBox>
+				</StackPanel>
+			</StackPanel>
+			<StackPanel Orientation="Horizontal">
+				<ComboBox Name="cbContinent" FontSize ="16" SelectedIndex="0">
+					<ComboBoxItem IsEnabled="false">Выберите месяц рождения</ComboBoxItem>
+					<ComboBoxItem>Январь</ComboBoxItem>
+					<ComboBoxItem>Февраль</ComboBoxItem>
+					<ComboBoxItem>Март</ComboBoxItem>
+					<ComboBoxItem>Апрель</ComboBoxItem>
+					<ComboBoxItem>Май</ComboBoxItem>
+					<ComboBoxItem>Июнь</ComboBoxItem>
+					<ComboBoxItem>Июль</ComboBoxItem>
+					<ComboBoxItem>Август</ComboBoxItem>
+					<ComboBoxItem>Сентябрь</ComboBoxItem>
+					<ComboBoxItem>Октябрь</ComboBoxItem>
+					<ComboBoxItem>Ноябрь</ComboBoxItem>
+					<ComboBoxItem>Декабрь</ComboBoxItem>
+				</ComboBox>
+			</StackPanel>
+			<Button Click="WriteFile" Margin="10">Записать в файл</Button>
+			<TextBlock Name="ShowMessage" Foreground="Red"></TextBlock>
+			<Button Click="ShowUsersList">Показать содержимое файла</Button>
+		</StackPanel>
+		<StackPanel Name="InputFormGrid" IsVisible="False">
+			<Button Click="ShowInputForm">Назад</Button>
+		</StackPanel>
+	</Grid>
+</Window>
